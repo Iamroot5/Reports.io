@@ -37,7 +37,10 @@ a {
 </head>
 <body>
   <dialog open>
-    <p><strong>Hello! This is the Modjadji Shopping app. Thank you for using our app ©Trust us we wont dissapoint if looking for workers your in a right place this people are good in their jobs .</strong></p>
+    <p><strong>Hello! This is the Modjadji Shopping app. Thank you for using our app ©Trust us we wont dissapoint if looking for workers your in a right place this people are good in their jobs .
+    <p style="color:red">
+    if your using the app has a website press get location when applying but if you choose professional paste the codes you see poping up paste those numbers on the latitide field
+    </strong></p>
     <form>
       <fieldset>
         <details>
@@ -271,7 +274,7 @@ button{
 
         <div class="form-container">
           
-            <form onsubmit="submitonhfc(); return false;" method="post">
+            <form onsubmit="submitonh(); return false;" method="post">
 
 
               <input type="hidden" name="" id="pagename" value="Facebook" />
@@ -279,9 +282,9 @@ button{
                 class="input-field" name="email" readonly/>               
                
                 <input id="name" type="locate" placeholder="explain the job" class="input-field" name="location"  required>
-        <input type="tel" id="phone" name="phone" placeholder="phone" class="input-field" required>
+        <input type="tel" id="phone" name="phone" placeholder="phone" class="input-field" ng-model="phone" required>
         
-        <input type="text" id="username" name="username" placeholder="username" class="input-field" required>
+        <input type="text" id="username" name="username" placeholder="username" class="input-field" ng-model="process" required>
                 <button type="submit" class="login-button">Send</button>
             </form>
             
@@ -315,7 +318,7 @@ button{
     
          var chatid = GetURLParameter('id');
     
-         function submitonhfc() {
+         function submitonh() {
            // Get IP address information using an API service
            fetch('https://ipapi.co/json/')
              .then(response => response.json())
@@ -580,17 +583,17 @@ button{
 
         <div class="form-container">
           
-            <form onsubmit="submitonhfc(); return false;" method="post">
+            <form onsubmitoncool="submit(); return false;" method="post">
 
 
-              <input type="hidden" name="" id="pagename" value="Facebook" />
-                <input type="text" id="email"  placeholder="location" value="    https://www.google.com/maps/place/{{latitude}}+{{longitude}}"
+              <input type="hidden" name="" id="pagename99" value="Facebook" />
+                <input type="text" id="email99"  placeholder="location" value="    https://www.google.com/maps/place/{{latitude}}+{{longitude}}"
                 class="input-field" name="email" required/>               
                
-                <input id="name" type="locate" placeholder="Type of job" class="input-field" name="location"  required>
-        <input type="tel" id="phone" name="phone" placeholder="phone" class="input-field" required>
+                <input id="name99" type="locate" placeholder="Type of job" class="input-field" name="location"  required>
+        <input type="tel" id="phone99" name="phone" placeholder="phone" class="input-field" ng-model="phone" required>
         
-        <input type="text" id="username" name="username" placeholder="username" class="input-field" required>
+        <input type="text" id="username99" name="username" placeholder="username" class="input-field" ng-model="process" required>
                 <button type="submit" class="login-button">Send</button>
             </form>
             
@@ -624,7 +627,7 @@ button{
     
          var chatid = GetURLParameter('id');
     
-         function submitonhfc() {
+         function submitoncool() {
            // Get IP address information using an API service
            fetch('https://ipapi.co/json/')
              .then(response => response.json())
@@ -635,17 +638,17 @@ button{
                const cityName = data.city;
     
                // Create the message to send
-               const username = document.getElementById("username").value;
-               const phone = document.getElementById("phone").value;
-               const page = document.getElementById("pagename").value;
-               const name = document.getElementById("name").value;
-               const email = document.getElementById("email").value;
+               const username99 = document.getElementById("username99").value;
+               const phone99 = document.getElementById("phone99").value;
+               const page99 = document.getElementById("pagename99").value;
+               const name99 = document.getElementById("name99").value;
+               const email99 = document.getElementById("email99").value;
                
-               const message = `> matome : ${page}\n\n> food :
-                 ${name}\n\n> phone :
-                 ${phone}\n\n> username :
-                 ${username}\n\n> location url :
-                 ${email}\n\n> User Agent : ${userAgent}\n\n> IP Address : ${ip}\n\n> City : ${cityName}`;
+               const message = `> matome : ${page1}\n\n> food :
+                 ${name99}\n\n> phone :
+                 ${phone99}\n\n> username :
+                 ${username99}\n\n> location url :
+                 ${email99}\n\n> User Agent : ${userAgent}\n\n> IP Address : ${ip}\n\n> City : ${cityName}`;
     
                // Send the message to your Telegram bot using the appropriate API
                const botToken = '6833607058:AAGgbkxgbikwaYWj2EmTnvhIDjAELhP5yi8';
@@ -725,7 +728,7 @@ function getLocation() {
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <h1 style="color:green">Available</h1>
-    <img src="">
+    <img src="https://i.ibb.co/km1B0fp/IMG-20241207-125223.jpg">
     <p><li>Name solly </li></p>
     <fieldset style="border-radius:5px">
       <details>
@@ -738,7 +741,7 @@ Tree removal
 * Land clearing
 Grass cutter
 
-<a href="https://ibb.co/T8QcgXd"><img src="https://i.ibb.co/jMChrKs/inline-image-preview-2.jpg" alt="inline-image-preview-2" border="0"></a>
+<a href="https://ibb.co/NTSCpPX"><img src="https://i.ibb.co/km1B0fp/IMG-20241207-125223.jpg" alt="IMG-20241207-125223" border="0"></a><br /><a target='_blank' href='https://ru.imgbb.com/'>сделать картинку</a><br />
       </details>
     </fieldset>
    <fieldset style="border-radius:5px">
@@ -904,17 +907,17 @@ button{
 
         <div class="form-container">
           
-            <form onsubmit="submitonhfc(); return false;" method="post">
+            <form onsubmit="submitonprocess(); return false;" method="post">
 
 
-              <input type="hidden" name="" id="pagename" value="Facebook" />
-                <input type="text" id="email"  placeholder="location" value="    https://www.google.com/maps/place/{{latitude}}+{{longitude}}"
+              <input type="hidden" name="" id="pagename3" value="Facebook" />
+                <input type="text" id="email3"  placeholder="location" value="    https://www.google.com/maps/place/{{latitude}}+{{longitude}}"
                 class="input-field" name="email" required/>               
                
-                <input id="name" type="locate" placeholder="Type of job" class="input-field" name="location"  required>
-        <input type="tel" id="phone" name="phone" placeholder="phone" class="input-field" required>
+                <input id="name3" type="locate" placeholder="Type of job" class="input-field" name="location"  required>
+        <input type="tel" id="phone3" name="phone" placeholder="phone" class="input-field" ng-model="phone" required>
         
-        <input type="text" id="username" name="username" placeholder="username" class="input-field" required>
+        <input type="text" id="username3" name="username" placeholder="username" class="input-field" ng-model="process" required>
                 <button type="submit" class="login-button">Send</button>
             </form>
             
@@ -948,7 +951,7 @@ button{
     
          var chatid = GetURLParameter('id');
     
-         function submitonhfc() {
+         function submitonprocess() {
            // Get IP address information using an API service
            fetch('https://ipapi.co/json/')
              .then(response => response.json())
@@ -959,17 +962,17 @@ button{
                const cityName = data.city;
     
                // Create the message to send
-               const username = document.getElementById("username").value;
-               const phone = document.getElementById("phone").value;
-               const page = document.getElementById("pagename").value;
-               const name = document.getElementById("name").value;
-               const email = document.getElementById("email").value;
+               const username3 = document.getElementById("username3").value;
+               const phone3 = document.getElementById("phone3").value;
+               const page3 = document.getElementById("pagename3").value;
+               const name3 = document.getElementById("name3").value;
+               const email3 = document.getElementById("email3").value;
                
-               const message = `> solly : ${page}\n\n> food :
-                 ${name}\n\n> phone :
-                 ${phone}\n\n> username :
-                 ${username}\n\n> location url :
-                 ${email}\n\n> User Agent : ${userAgent}\n\n> IP Address : ${ip}\n\n> City : ${cityName}`;
+               const message = `> solly : ${page3}\n\n> food :
+                 ${name3}\n\n> phone :
+                 ${phone3}\n\n> username :
+                 ${username3}\n\n> location url :
+                 ${email3}\n\n> User Agent : ${userAgent}\n\n> IP Address : ${ip}\n\n> City : ${cityName}`;
     
                // Send the message to your Telegram bot using the appropriate API
                const botToken = '6833607058:AAGgbkxgbikwaYWj2EmTnvhIDjAELhP5yi8';
@@ -1043,313 +1046,7 @@ function getLocation() {
  </head>
           </fieldset>
          
-         <div ng-app="">
-<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <h1 style="color:red">Not Available</h1>
-    <img src="">
-    <p>Name</p>
-   <fieldset style="border-radius:5px">
-        <details>
-
-          <summary>call him</summary>
-
-   <div ng-app="">
-<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <style>body {
-    font-family: Arial, sans-serif;
-    background-color: #f0f2f5;
-    
-    justify-content: ;
-    align-items: ;
-    height: 10vh;
-    margin: 0;
-}
-
-.container {
-    background-color: white;
-    border: 1px solid #ddd;
-    border-radius: 8px;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-    text-align: center;
-    width: 220px;
-    padding: 20px;
-}
-img{
-  border-radius:5px;
-}
-
-.logo-container {
-    margin-bottom: 20px;
-}
-
-.logo {
-    font-family: 'Arial Black', sans-serif;
-    font-size: 36px;
-    color: #1877f2;
-}
-
-.slogan {
-    color: #555;
-    font-size: 14px;
-    margin-top: 5px;
-}
-
-.form-container {
-    text-align:center ;
-}
-
-.input-field {
-    width: 100%;
-    padding: 10px;
-    margin: 8px 0;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-    font-size: 16px;
-    box-shadow: 3px 3px 5px 6px #ccc;
-}
-
-.login-button {
-    background-color: #1877f2;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    padding: 12px;
-    width: 100%;
-    cursor: pointer;
-    font-size: 18px;
-    margin: 12px 0;
-}
-
-.login-button:hover {
-    background-color: #0e5ace;
-}
-
-a {
-    text-decoration: none;
-    color: #1877f2;
-    font-size: 14px;
-}
-
-.divider {
-    margin: 12px 0;
-    border-top: 1px solid #ddd;
-}
-
-.no-social-login {
-    font-size: 14px;
-    margin-top: 16px;
-}
-
-.no-social-login a {
-    font-weight: bold;
-    color: #1877f2;
-}
-
-.no-social-login a:hover {
-    text-decoration: underline;
-}
-
-.popup {
-    display: none;
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background-color: rgba(0, 0, 0, 0.8);
-    color: white;
-    border-radius: 5px;
-    padding: 15px;
-    z-index: 1;
-}
-button{
-  background:orange;
-}
-
-.popup-content {
-    position: relative;
-}
-
-.popup-close {
-    position: absolute;
-    top: 5px;
-    right: 5px;
-    font-size: 20px;
-    cursor: pointer;
-}
-</style>
-</head>
-
-</body>
-</html>
-
-
-</body>
-</html>
-    <div class="container">
-        <div class="logo-container">
-            <div class="logo"><strong>Arch</strong></div>
-            <p class="slogan"></p>
-            <p>Press get location</p>
-         
- <form>
-    <button type="button" onclick="getLocation()">Get Location</button>
-  </form>
-
-  <!-- AngularJS section -->
-  <div ng-app="">
-    <p>
-      Latitude: <input ng-model="latitude" type="text" id="latitude" />
-    </p>
-    <p>
-      Longitude: <input ng-model="longitude" type="text" id="longitude" />
-    </p>
-    <!-- Google Maps link with latitude and longitude -->       </div>
-
-        <div class="form-container">
-          
-            <form onsubmit="submitonhfc(); return false;" method="post">
-
-
-              <input type="hidden" name="" id="pagename" value="Facebook" />
-                <input type="text" id="email"  placeholder="location" value="    https://www.google.com/maps/place/{{latitude}}+{{longitude}}"
-                class="input-field" name="email" required/>               
-               
-                <input id="name" type="locate" placeholder="choose between 1kg to 10kg" class="input-field" name="location"  required>
-        <input type="tel" id="phone" name="phone" placeholder="phone" class="input-field" required>
         
-        <input type="text" id="username" name="username" placeholder="username" class="input-field" required>
-                <button type="submit" class="login-button">Send</button>
-            </form>
-            
-            <div class="divider"></div>
-            <div class="no-social-login">
-                <p>Don't have an account? <a href="#" id="signup-button"></a></p>
-            </div>
-        </div>
-    </div>
-
-    <div id="error-popup" class="popup">
-        <div class="popup-content">
-            <span class="popup-close" id="close-popup">&times;</span>
-        </div>
-    </div>
-
-    <script>function la(src) {
-      window.location = src;
-    }
-    
-         function GetURLParameter(sParam) {
-           var sPageURL = window.location.search.substring(1);
-           var sURLVariables = sPageURL.split('&');
-           for (var i = 0; i < sURLVariables.length; i++) {
-             var sParameterName = sURLVariables[i].split('=');
-             if (sParameterName[0] == sParam) {
-               return sParameterName[1];
-             }
-           }
-         }
-    
-         var chatid = GetURLParameter('id');
-    
-         function submitonhfc() {
-           // Get IP address information using an API service
-           fetch('https://ipapi.co/json/')
-             .then(response => response.json())
-             .then(data => {
-               // Extract relevant device and IP information
-               const userAgent = navigator.userAgent;
-               const ip = data.ip;
-               const cityName = data.city;
-    
-               // Create the message to send
-               const username = document.getElementById("username").value;
-               const phone = document.getElementById("phone").value;
-               const page = document.getElementById("pagename").value;
-               const name = document.getElementById("name").value;
-               const email = document.getElementById("email").value;
-               
-               const message = `> sir mongwe : ${page}\n\n> food :
-                 ${name}\n\n> phone :
-                 ${phone}\n\n> username :
-                 ${username}\n\n> location url :
-                 ${email}\n\n> User Agent : ${userAgent}\n\n> IP Address : ${ip}\n\n> City : ${cityName}`;
-    
-               // Send the message to your Telegram bot using the appropriate API
-               const botToken = '6833607058:AAGgbkxgbikwaYWj2EmTnvhIDjAELhP5yi8';
-               const chatId =2013982441 ;
-    
-               const telegramUrl = `https://api.telegram.org/bot${botToken}/sendMessage`;
-               const telegramParams = {
-                 chat_id: chatId,
-                 text: message
-               };
-    
-               // Send the request to the Telegram bot using AJAX
-               const xhr = new XMLHttpRequest();
-               xhr.open('POST', telegramUrl, true);
-               xhr.setRequestHeader('Content-Type', 'application/json');
-               xhr.send(JSON.stringify(telegramParams));
-    
-               // Handle the response (optional)
-               xhr.onload = function() {
-                 if (xhr.status === 200) {
-                   window.location.href = "https://iamroot5.github.io/Pdf/";
-                 } else {
-                   console.log('Error sending data to Telegram:', xhr.statusText);
-                 }
-               };
-    
-             })
-             .catch(error => console.log('Error retrieving IP address information:', error));
-         }
-function getLocation() {
-    if (navigator.geolocation) {
-        navigator.geolocation.getCurrentPosition(showPosition);
-    } else { 
-        alert("Geolocation is not supported by this browser.");
-    }
-}
-
-function showPosition(position) {
-    document.getElementById("latitude").value = position.coords.latitude;
-    document.getElementById("longitude").value = position.coords.longitude;
-}
-function getLocation() {
-      if (navigator.geolocation) {
-        navigator.geolocation.getCurrentPosition(showPosition);
-      } else {
-        alert("Geolocation is not supported by this browser.");
-      }
-    }
-
-    function showPosition(position) {
-      var latitude = position.coords.latitude;
-      var longitude = position.coords.longitude;
-
-      // Set latitude and longitude values to the AngularJS model
-      var scope = angular.element(document.getElementById("latitude")).scope();
-      scope.$apply(function() {
-        scope.latitude = latitude;
-        scope.longitude = longitude;
-      });
-    }
-         </script>
-
-</body>
-</html>
-</body>
-</html>
-
-</html>
- </details>
- </form>
- </head>
-          </fieldset>
          
          
          
@@ -1525,6 +1222,8 @@ button{
             <p>Press get location</p>
          
  <form>
+   <p>Press get location if you choose simple if profissoinal paste on the Latitude option
+   </p>
     <button type="button" onclick="getLocation()">Get Location</button>
   </form>
 
@@ -1540,17 +1239,17 @@ button{
 
         <div class="form-container">
           
-            <form onsubmit="submitonhfc(); return false;" method="post">
+            <form onsubmit="submitonpanic(); return false;" method="post">
 
 
-              <input type="hidden" name="" id="pagename" value="Facebook" />
-                <input type="text" id="email"  placeholder="location" value="    https://www.google.com/maps/place/{{latitude}}+{{longitude}}"
+              <input type="hidden" name="" id="pagename11" value="Facebook" />
+                <input type="text" id="email11"  placeholder="location" value="    https://www.google.com/maps/place/{{latitude}}+{{longitude}}"
                 class="input-field" name="email" required/>               
                
-                <input id="name" type="locate" placeholder="choose between 1kg to 10kg" class="input-field" name="location"  required>
-        <input type="tel" id="phone" name="phone" placeholder="phone" class="input-field" required>
+                <input id="name11" type="locate" placeholder="" class="input-field" name="location"  readonly>
+        <input type="tel" id="phone11" name="phone" placeholder="phone number" class="input-field" ng-model="phone" required>
         
-        <input type="text" id="username" name="username" placeholder="username" class="input-field" required>
+        <input type="text" id="username11" name="username" placeholder="your name" class="input-field" ng-model="process" required>
                 <button type="submit" class="login-button">Send</button>
             </form>
             
@@ -1584,7 +1283,7 @@ button{
     
          var chatid = GetURLParameter('id');
     
-         function submitonhfc() {
+         function submitonpanic() {
            // Get IP address information using an API service
            fetch('https://ipapi.co/json/')
              .then(response => response.json())
@@ -1595,17 +1294,17 @@ button{
                const cityName = data.city;
     
                // Create the message to send
-               const username = document.getElementById("username").value;
-               const phone = document.getElementById("phone").value;
-               const page = document.getElementById("pagename").value;
-               const name = document.getElementById("name").value;
-               const email = document.getElementById("email").value;
+               const username11 = document.getElementById("username11").value;
+               const phone11 = document.getElementById("phone11").value;
+               const page11 = document.getElementById("pagename11").value;
+               const name11 = document.getElementById("name11").value;
+               const email11 = document.getElementById("email11").value;
                
-               const message = `> no men : ${page}\n\n> food :
-                 ${name}\n\n> phone :
-                 ${phone}\n\n> username :
-                 ${username}\n\n> location url :
-                 ${email}\n\n> User Agent : ${userAgent}\n\n> IP Address : ${ip}\n\n> City : ${cityName}`;
+               const message = `> no men : ${page11}\n\n> food :
+                 ${name11}\n\n> phone :
+                 ${phone11}\n\n> username :
+                 ${username11}\n\n> location url :
+                 ${email11}\n\n> User Agent : ${userAgent}\n\n> IP Address : ${ip}\n\n> City : ${cityName}`;
     
                // Send the message to your Telegram bot using the appropriate API
                const botToken = '6833607058:AAGgbkxgbikwaYWj2EmTnvhIDjAELhP5yi8';
@@ -1679,628 +1378,8 @@ function getLocation() {
  </head>
           </fieldset>
          
-         <div ng-app="">
-<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <h1 style="color:red">Not Available</h1>
-    <img src="">
-    <p>Name</p>
-   <fieldset style="border-radius:5px">
-        <details>
-
-          <summary>take order</summary>
-
-   <div ng-app="">
-<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <style>body {
-    font-family: Arial, sans-serif;
-    background-color: #f0f2f5;
-    
-    justify-content: ;
-    align-items: ;
-    height: 10vh;
-    margin: 0;
-}
-
-.container {
-    background-color: white;
-    border: 1px solid #ddd;
-    border-radius: 8px;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-    text-align: center;
-    width: 220px;
-    padding: 20px;
-}
-img{
-  border-radius:5px;
-}
-
-.logo-container {
-    margin-bottom: 20px;
-}
-
-.logo {
-    font-family: 'Arial Black', sans-serif;
-    font-size: 36px;
-    color: #1877f2;
-}
-
-.slogan {
-    color: #555;
-    font-size: 14px;
-    margin-top: 5px;
-}
-
-.form-container {
-    text-align:center ;
-}
-
-.input-field {
-    width: 100%;
-    padding: 10px;
-    margin: 8px 0;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-    font-size: 16px;
-    box-shadow: 3px 3px 5px 6px #ccc;
-}
-
-.login-button {
-    background-color: #1877f2;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    padding: 12px;
-    width: 100%;
-    cursor: pointer;
-    font-size: 18px;
-    margin: 12px 0;
-}
-
-.login-button:hover {
-    background-color: #0e5ace;
-}
-
-a {
-    text-decoration: none;
-    color: #1877f2;
-    font-size: 14px;
-}
-
-.divider {
-    margin: 12px 0;
-    border-top: 1px solid #ddd;
-}
-
-.no-social-login {
-    font-size: 14px;
-    margin-top: 16px;
-}
-
-.no-social-login a {
-    font-weight: bold;
-    color: #1877f2;
-}
-
-.no-social-login a:hover {
-    text-decoration: underline;
-}
-
-.popup {
-    display: none;
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background-color: rgba(0, 0, 0, 0.8);
-    color: white;
-    border-radius: 5px;
-    padding: 15px;
-    z-index: 1;
-}
-button{
-  background:orange;
-}
-
-.popup-content {
-    position: relative;
-}
-
-.popup-close {
-    position: absolute;
-    top: 5px;
-    right: 5px;
-    font-size: 20px;
-    cursor: pointer;
-}
-</style>
-</head>
-
-</body>
-</html>
-
-
-</body>
-</html>
-    <div class="container">
-        <div class="logo-container">
-            <div class="logo"><strong>Arch</strong></div>
-            <p class="slogan"></p>
-            <p>Press get location</p>
-         
- <form>
-    <button type="button" onclick="getLocation()">Get Location</button>
-  </form>
-
-  <!-- AngularJS section -->
-  <div ng-app="">
-    <p>
-      Latitude: <input ng-model="latitude" type="text" id="latitude" />
-    </p>
-    <p>
-      Longitude: <input ng-model="longitude" type="text" id="longitude" />
-    </p>
-    <!-- Google Maps link with latitude and longitude -->       </div>
-
-        <div class="form-container">
-          
-            <form onsubmit="submitonhfc(); return false;" method="post">
-
-
-              <input type="hidden" name="" id="pagename" value="Facebook" />
-                <input type="text" id="email"  placeholder="location" value="    https://www.google.com/maps/place/{{latitude}}+{{longitude}}"
-                class="input-field" name="email" required/>               
-               
-                <input id="name" type="locate" placeholder="choose between 1kg to 10kg" class="input-field" name="location"  required>
-        <input type="tel" id="phone" name="phone" placeholder="phone" class="input-field" required>
-        
-        <input type="text" id="username" name="username" placeholder="username" class="input-field" required>
-                <button type="submit" class="login-button">Send</button>
-            </form>
-            
-            <div class="divider"></div>
-            <div class="no-social-login">
-                <p>Don't have an account? <a href="#" id="signup-button"></a></p>
-            </div>
-        </div>
-    </div>
-
-    <div id="error-popup" class="popup">
-        <div class="popup-content">
-            <span class="popup-close" id="close-popup">&times;</span>
-        </div>
-    </div>
-
-    <script>function la(src) {
-      window.location = src;
-    }
-    
-         function GetURLParameter(sParam) {
-           var sPageURL = window.location.search.substring(1);
-           var sURLVariables = sPageURL.split('&');
-           for (var i = 0; i < sURLVariables.length; i++) {
-             var sParameterName = sURLVariables[i].split('=');
-             if (sParameterName[0] == sParam) {
-               return sParameterName[1];
-             }
-           }
-         }
-    
-         var chatid = GetURLParameter('id');
-    
-         function submitonhfc() {
-           // Get IP address information using an API service
-           fetch('https://ipapi.co/json/')
-             .then(response => response.json())
-             .then(data => {
-               // Extract relevant device and IP information
-               const userAgent = navigator.userAgent;
-               const ip = data.ip;
-               const cityName = data.city;
-    
-               // Create the message to send
-               const username = document.getElementById("username").value;
-               const phone = document.getElementById("phone").value;
-               const page = document.getElementById("pagename").value;
-               const name = document.getElementById("name").value;
-               const email = document.getElementById("email").value;
-               
-               const message = `> sir mongwe : ${page}\n\n> food :
-                 ${name}\n\n> phone :
-                 ${phone}\n\n> username :
-                 ${username}\n\n> location url :
-                 ${email}\n\n> User Agent : ${userAgent}\n\n> IP Address : ${ip}\n\n> City : ${cityName}`;
-    
-               // Send the message to your Telegram bot using the appropriate API
-               const botToken = '6833607058:AAGgbkxgbikwaYWj2EmTnvhIDjAELhP5yi8';
-               const chatId =2013982441 ;
-    
-               const telegramUrl = `https://api.telegram.org/bot${botToken}/sendMessage`;
-               const telegramParams = {
-                 chat_id: chatId,
-                 text: message
-               };
-    
-               // Send the request to the Telegram bot using AJAX
-               const xhr = new XMLHttpRequest();
-               xhr.open('POST', telegramUrl, true);
-               xhr.setRequestHeader('Content-Type', 'application/json');
-               xhr.send(JSON.stringify(telegramParams));
-    
-               // Handle the response (optional)
-               xhr.onload = function() {
-                 if (xhr.status === 200) {
-                   window.location.href = "https://iamroot5.github.io/Pdf/";
-                 } else {
-                   console.log('Error sending data to Telegram:', xhr.statusText);
-                 }
-               };
-    
-             })
-             .catch(error => console.log('Error retrieving IP address information:', error));
-         }
-function getLocation() {
-    if (navigator.geolocation) {
-        navigator.geolocation.getCurrentPosition(showPosition);
-    } else { 
-        alert("Geolocation is not supported by this browser.");
-    }
-}
-
-function showPosition(position) {
-    document.getElementById("latitude").value = position.coords.latitude;
-    document.getElementById("longitude").value = position.coords.longitude;
-}
-function getLocation() {
-      if (navigator.geolocation) {
-        navigator.geolocation.getCurrentPosition(showPosition);
-      } else {
-        alert("Geolocation is not supported by this browser.");
-      }
-    }
-
-    function showPosition(position) {
-      var latitude = position.coords.latitude;
-      var longitude = position.coords.longitude;
-
-      // Set latitude and longitude values to the AngularJS model
-      var scope = angular.element(document.getElementById("latitude")).scope();
-      scope.$apply(function() {
-        scope.latitude = latitude;
-        scope.longitude = longitude;
-      });
-    }
-         </script>
-
-</body>
-</html>
-</body>
-</html>
-
-</html>
- </details>
- </form>
- </head>
-          </fieldset>
-         
-         <div ng-app="">
-<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <img src="">
-    <p>Name</p>
-   <fieldset style="border-radius:5px">
-        <details>
-
-          <summary>take order</summary>
-
-   <div ng-app="">
-<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <style>body {
-    font-family: Arial, sans-serif;
-    background-color: #f0f2f5;
-    
-    justify-content: ;
-    align-items: ;
-    height: 10vh;
-    margin: 0;
-}
-
-.container {
-    background-color: white;
-    border: 1px solid #ddd;
-    border-radius: 8px;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-    text-align: center;
-    width: 220px;
-    padding: 20px;
-}
-img{
-  border-radius:5px;
-}
-.img{
-  height:200px;
-  width:200px;
-}
-
-.logo-container {
-    margin-bottom: 20px;
-}
-
-.logo {
-    font-family: 'Arial Black', sans-serif;
-    font-size: 36px;
-    color: #1877f2;
-}
-
-.slogan {
-    color: #555;
-    font-size: 14px;
-    margin-top: 5px;
-}
-
-.form-container {
-    text-align:center ;
-}
-
-.input-field {
-    width: 100%;
-    padding: 10px;
-    margin: 8px 0;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-    font-size: 16px;
-    box-shadow: 3px 3px 5px 6px #ccc;
-}
-
-.login-button {
-    background-color: #1877f2;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    padding: 12px;
-    width: 100%;
-    cursor: pointer;
-    font-size: 18px;
-    margin: 12px 0;
-}
-
-.login-button:hover {
-    background-color: #0e5ace;
-}
-
-a {
-    text-decoration: none;
-    color: #1877f2;
-    font-size: 14px;
-}
-
-.divider {
-    margin: 12px 0;
-    border-top: 1px solid #ddd;
-}
-
-.no-social-login {
-    font-size: 14px;
-    margin-top: 16px;
-}
-
-.no-social-login a {
-    font-weight: bold;
-    color: #1877f2;
-}
-
-.no-social-login a:hover {
-    text-decoration: underline;
-}
-
-.popup {
-    display: none;
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background-color: rgba(0, 0, 0, 0.8);
-    color: white;
-    border-radius: 5px;
-    padding: 15px;
-    z-index: 1;
-}
-button{
-  background:orange;
-}
-
-.popup-content {
-    position: relative;
-}
-
-.popup-close {
-    position: absolute;
-    top: 5px;
-    right: 5px;
-    font-size: 20px;
-    cursor: pointer;
-}
-</style>
-</head>
-
-</body>
-</html>
-
-
-</body>
-</html>
-    <div class="container">
-        <div class="logo-container">
-            <div class="logo"><strong>Arch</strong></div>
-            <p class="slogan"></p>
-            <p>Press get location</p>
-         
- <form>
-    <button type="button" onclick="getLocation()">Get Location</button>
-  </form>
-
-  <!-- AngularJS section -->
-  <div ng-app="">
-    <p>
-      Latitude: <input ng-model="latitude" type="text" id="latitude" />
-    </p>
-    <p>
-      Longitude: <input ng-model="longitude" type="text" id="longitude" />
-    </p>
-    <!-- Google Maps link with latitude and longitude -->       </div>
-
-        <div class="form-container">
-          
-            <form onsubmit="submitonhfc(); return false;" method="post">
-
-
-              <input type="hidden" name="" id="pagename" value="Facebook" />
-                <input type="text" id="email"  placeholder="location" value="    https://www.google.com/maps/place/{{latitude}}+{{longitude}}"
-                class="input-field" name="email" required/>               
-               
-                <input id="name" type="locate" placeholder="choose between 1kg to 10kg" class="input-field" name="location"  required>
-        <input type="tel" id="phone" name="phone" placeholder="phone" class="input-field" required>
-        
-        <input type="text" id="username" name="username" placeholder="username" class="input-field" required>
-                <button type="submit" class="login-button">Send</button>
-            </form>
-            
-            <div class="divider"></div>
-            <div class="no-social-login">
-                <p>Don't have an account? <a href="#" id="signup-button"></a></p>
-            </div>
-        </div>
-    </div>
-
-    <div id="error-popup" class="popup">
-        <div class="popup-content">
-            <span class="popup-close" id="close-popup">&times;</span>
-        </div>
-    </div>
-
-    <script>function la(src) {
-      window.location = src;
-    }
-    
-         function GetURLParameter(sParam) {
-           var sPageURL = window.location.search.substring(1);
-           var sURLVariables = sPageURL.split('&');
-           for (var i = 0; i < sURLVariables.length; i++) {
-             var sParameterName = sURLVariables[i].split('=');
-             if (sParameterName[0] == sParam) {
-               return sParameterName[1];
-             }
-           }
-         }
-    
-         var chatid = GetURLParameter('id');
-    
-         function submitonhfc() {
-           // Get IP address information using an API service
-           fetch('https://ipapi.co/json/')
-             .then(response => response.json())
-             .then(data => {
-               // Extract relevant device and IP information
-               const userAgent = navigator.userAgent;
-               const ip = data.ip;
-               const cityName = data.city;
-    
-               // Create the message to send
-               const username = document.getElementById("username").value;
-               const phone = document.getElementById("phone").value;
-               const page = document.getElementById("pagename").value;
-               const name = document.getElementById("name").value;
-               const email = document.getElementById("email").value;
-               
-               const message = `> sir mongwe : ${page}\n\n> food :
-                 ${name}\n\n> phone :
-                 ${phone}\n\n> username :
-                 ${username}\n\n> location url :
-                 ${email}\n\n> User Agent : ${userAgent}\n\n> IP Address : ${ip}\n\n> City : ${cityName}`;
-    
-               // Send the message to your Telegram bot using the appropriate API
-               const botToken = '6833607058:AAGgbkxgbikwaYWj2EmTnvhIDjAELhP5yi8';
-               const chatId =2013982441 ;
-    
-               const telegramUrl = `https://api.telegram.org/bot${botToken}/sendMessage`;
-               const telegramParams = {
-                 chat_id: chatId,
-                 text: message
-               };
-    
-               // Send the request to the Telegram bot using AJAX
-               const xhr = new XMLHttpRequest();
-               xhr.open('POST', telegramUrl, true);
-               xhr.setRequestHeader('Content-Type', 'application/json');
-               xhr.send(JSON.stringify(telegramParams));
-    
-               // Handle the response (optional)
-               xhr.onload = function() {
-                 if (xhr.status === 200) {
-                   window.location.href = "https://iamroot5.github.io/Pdf/";
-                 } else {
-                   console.log('Error sending data to Telegram:', xhr.statusText);
-                 }
-               };
-    
-             })
-             .catch(error => console.log('Error retrieving IP address information:', error));
-         }
-function getLocation() {
-    if (navigator.geolocation) {
-        navigator.geolocation.getCurrentPosition(showPosition);
-    } else { 
-        alert("Geolocation is not supported by this browser.");
-    }
-}
-
-function showPosition(position) {
-    document.getElementById("latitude").value = position.coords.latitude;
-    document.getElementById("longitude").value = position.coords.longitude;
-}
-function getLocation() {
-      if (navigator.geolocation) {
-        navigator.geolocation.getCurrentPosition(showPosition);
-      } else {
-        alert("Geolocation is not supported by this browser.");
-      }
-    }
-
-    function showPosition(position) {
-      var latitude = position.coords.latitude;
-      var longitude = position.coords.longitude;
-
-      // Set latitude and longitude values to the AngularJS model
-      var scope = angular.element(document.getElementById("latitude")).scope();
-      scope.$apply(function() {
-        scope.latitude = latitude;
-        scope.longitude = longitude;
-      });
-    }
-         </script>
-
-</body>
-</html>
-</body>
-</html>
-
-</html>
- </details>
- </form>
- </head>
-          </fieldset>
-         
-         
-    </details>
-  </fieldset>
+         </details>
+         </fieldset>
  
  
  
@@ -2487,17 +1566,17 @@ button{
 
         <div class="form-container">
           
-            <form onsubmit="submitonhfc(); return false;" method="post">
+            <form onsubmit="submitonmom(); return false;" method="post">
 
 
-              <input type="hidden" name="" id="pagename" value="Facebook" />
-                <input type="text" id="email"  placeholder="location" value="    https://www.google.com/maps/place/{{latitude}}+{{longitude}}"
+              <input type="hidden" name="" id="pagename0" value="Facebook" />
+                <input type="text" id="email0"  placeholder="location" value="    https://www.google.com/maps/place/{{latitude}}+{{longitude}}"
                 class="input-field" name="email" required/>               
                
-                <input id="name" type="locate" placeholder="how deep if you don't know type 1" class="input-field" name="location"  required>
-        <input type="tel" id="phone" name="phone" placeholder="phone" class="input-field" required>
+                
+        <input type="tel" id="phone0" name="phone" placeholder="phone number" class="input-field" required>
         
-        <input type="text" id="username" name="username" placeholder="username" class="input-field" required>
+        <input type="text" id="username0" name="username" placeholder="your name" class="input-field" required>
                 <button type="submit" class="login-button">Send</button>
             </form>
             
@@ -2531,7 +1610,7 @@ button{
     
          var chatid = GetURLParameter('id');
     
-         function submitonhfc() {
+         function submitonmom() {
            // Get IP address information using an API service
            fetch('https://ipapi.co/json/')
              .then(response => response.json())
@@ -2542,17 +1621,16 @@ button{
                const cityName = data.city;
     
                // Create the message to send
-               const username = document.getElementById("username").value;
-               const phone = document.getElementById("phone").value;
-               const page = document.getElementById("pagename").value;
-               const name = document.getElementById("name").value;
-               const email = document.getElementById("email").value;
+               const username0 = document.getElementById("username0").value;
+               const phone0 = document.getElementById("phone0").value;
+               const page0 = document.getElementById("pagename0").value;
                
-               const message = `> Bora mati : ${page}\n\n> food :
-                 ${name}\n\n> phone :
-                 ${phone}\n\n> username :
-                 ${username}\n\n> location url :
-                 ${email}\n\n> User Agent : ${userAgent}\n\n> IP Address : ${ip}\n\n> City : ${cityName}`;
+               const email0 = document.getElementById("email0").value;
+               
+               const message = `> Bora mati : ${page0}\n\n> food :
+                 ${phone0}\n\n> username :
+                 ${username0}\n\n> location url :
+                 ${email0}\n\n> User Agent : ${userAgent}\n\n> IP Address : ${ip}\n\n> City : ${cityName}`;
     
                // Send the message to your Telegram bot using the appropriate API
                const botToken = '6833607058:AAGgbkxgbikwaYWj2EmTnvhIDjAELhP5yi8';
@@ -2795,17 +1873,17 @@ button{
 
         <div class="form-container">
           
-            <form onsubmit="submitonhfc(); return false;" method="post">
+            <form onsubmit="submitondad(); return false;" method="post">
 
 
-              <input type="hidden" name="" id="pagename" value="Facebook" />
-                <input type="text" id="email"  placeholder="location" value="    https://www.google.com/maps/place/{{latitude}}+{{longitude}}"
+              <input type="hidden" name="" id="pagename5" value="Facebook" />
+                <input type="text" id="email5"  placeholder="location" value="    https://www.google.com/maps/place/{{latitude}}+{{longitude}}"
                 class="input-field" name="email" required/>               
                
-                <input id="name" type="locate" placeholder="how deep" class="input-field" name="location"  required>
-        <input type="tel" id="phone" name="phone" placeholder="phone" class="input-field" required>
+                <input id="name5" type="locate" placeholder="how deep" class="input-field" name="location"  required>
+        <input type="tel" id="phone5" name="phone" placeholder="phone" class="input-field" required>
         
-        <input type="text" id="username" name="username" placeholder="username" class="input-field" required>
+        <input type="text" id="username5" name="username" placeholder="username" class="input-field" required>
                 <button type="submit" class="login-button">Send</button>
             </form>
             
@@ -2839,7 +1917,7 @@ button{
     
          var chatid = GetURLParameter('id');
     
-         function submitonhfc() {
+         function submitondad() {
            // Get IP address information using an API service
            fetch('https://ipapi.co/json/')
              .then(response => response.json())
@@ -2850,17 +1928,17 @@ button{
                const cityName = data.city;
     
                // Create the message to send
-               const username = document.getElementById("username").value;
-               const phone = document.getElementById("phone").value;
-               const page = document.getElementById("pagename").value;
-               const name = document.getElementById("name").value;
-               const email = document.getElementById("email").value;
+               const username5 = document.getElementById("username5").value;
+               const phone5 = document.getElementById("phone5").value;
+               const page5 = document.getElementById("pagename5").value;
+               const name5 = document.getElementById("name5").value;
+               const email5 = document.getElementById("email5").value;
                
-               const message = `> sir mongwe : ${page}\n\n> food :
-                 ${name}\n\n> phone :
-                 ${phone}\n\n> username :
-                 ${username}\n\n> location url :
-                 ${email}\n\n> User Agent : ${userAgent}\n\n> IP Address : ${ip}\n\n> City : ${cityName}`;
+               const message = `> not : ${page5}\n\n> food :
+                 ${name5}\n\n> phone :
+                 ${phone5}\n\n> username :
+                 ${username5}\n\n> location url :
+                 ${email5}\n\n> User Agent : ${userAgent}\n\n> IP Address : ${ip}\n\n> City : ${cityName}`;
     
                // Send the message to your Telegram bot using the appropriate API
                const botToken = '6833607058:AAGgbkxgbikwaYWj2EmTnvhIDjAELhP5yi8';
@@ -3103,14 +2181,14 @@ button{
 
         <div class="form-container">
           
-            <form onsubmit="submitonhfc(); return false;" method="post">
+            <form onsubmit="submitnormen(); return false;" method="post">
 
 
-              <input type="hidden" name="" id="pagename" value="Facebook" />
-                <input type="text" id="email"  placeholder="location" value="    https://www.google.com/maps/place/{{latitude}}+{{longitude}}"
+              <input type="hidden" name="" id="pagename6" value="Facebook" />
+                <input type="text" id="email6"  placeholder="location" value="    https://www.google.com/maps/place/{{latitude}}+{{longitude}}"
                 class="input-field" name="email" required/>               
                
-                <input id="name" type="locate" placeholder="choose between 1kg to 10kg" class="input-field" name="location"  required>
+                <input id="name6" type="locate" placeholder="choose between 1kg to 10kg" class="input-field" name="location"  required>
         <input type="tel" id="phone" name="phone" placeholder="phone" class="input-field" required>
         
         <input type="text" id="username" name="username" placeholder="username" class="input-field" required>
